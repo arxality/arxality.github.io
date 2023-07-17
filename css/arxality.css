@@ -10,8 +10,12 @@
  #main {
   overflow:auto;
   padding-bottom:0px; 
-  height: 58vh;
+  height: 68vh;
   margin-top: 0px;
+}
+
+.contact {
+  text-align: center;
 }
 
  .footer {
