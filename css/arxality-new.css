@@ -85,3 +85,16 @@ footer h6 {
 footer ul {
   list-style: none;
 }
+
+h6.footer {
+  color: #ccc;
+  font-size: small;
+}
+p.footer {
+  color: #aaa;
+  font-size: small;
+}
+address.footer {
+  color: #aaa;
+  font-size: small;
+}
