@@ -12,10 +12,12 @@
 <body>
   <header>
     <div class="branding">
+      <!--
       <h1>
         <small>A tagline</small>
         Arxality Logo
       </h1>
+    -->
     </div>
 
     <div class="container">
@@ -24,35 +26,37 @@
           <ul class="d-flex w-100 m-0 flex-column flex-sm-row">
             <li class="flex-grow-1 p-3">
               <em>_01</em>
-              <a href="#">Service #1</a>
+              <a href="#service">Service</a>
             </li>
 
             <li class="flex-grow-1 p-3">
               <em>_02</em>
-              <a href="#">Service #2</a>
+              <a href="#about">About</a>
             </li>
 
             <li class="flex-grow-1 p-3">
               <em>_03</em>
-              <a href="#">Service #3</a>
+              <a href="#contact">Contact</a>
             </li>
 
+            <!--
             <li class="flex-grow-1 p-3">
               <em>_04</em>
               <a href="#">Service #4</a>
             </li>
+          -->
           </ul>
         </div>
       </div>
     </div>
   </header>
 
-  <div class="container py-5" id="content">
+  <div id="service" class="content container py-6 collapse show">
     <section class="row">
       <div class="col-sm-12 col-md-6">
-        <h2>About us</h2>
+        <h2>Service</h2>
         <h3>
-          We are a team of experts saving you from the evil of the world
+          Code. Protect. Prevail.
         </h3>
 
         <p>
@@ -67,34 +71,109 @@
           trusted partner on the path to technological excellence.
         </p>
 
+        <!--
         <p>
           <a href="#" class="btn btn-outline-light">Read more</a>
-        </p>
+        </p>-->
       </div>
 
       <div class="col">
-        <img class="img-fluid" src="./img/solider.jpg" alt="Solider holding m4 assault rifle" />
+        <img class="img-fluid" src="./img/cover-7830350474520515.png" alt="A large futuristic humanoid robot with it's hands pressed together in a martial pose against a backdrop of a city"/>
       </div>
     </section>
   </div>
 
+  <div id="about" class="content container py-6 collapse">
+    <section class="row">
+      <div class="col-sm-12 col-md-6">
+        <h2>About us</h2>
+        <h3>
+          ARX-sal-IT-y
+        </h3>
+        <p>
+          Our job is just computer.
+        </p>
+        <p>
+          The root of our name is Arx, which the Latin for "fortress", "citadel" 
+          or "stronghold".  The suffix "ility", at least in English, refers to 
+          the quality, state, or degree of being what the original word 
+          describes.
+        </p>
+        <p>
+          The idea being that it is safe to be with Arxality.
+        </p>
+        <p>
+          With a wealth of experience spanning over 22 years across various 
+          industries and a diverse range of programming languages and 
+          technologies, we are confident in its authenticity. 
+        </p>
+      </div>
+      <div class="col">
+        <img class="img-fluid" src="./img/cover-7996566434807184.png" alt="A giant futuristic robot with one hand pressed against the ground and the other raised, looking like it has just landed from a jump."/>
+      </div>
+    </section>
+  </div>
+
+  <div id="contact" class="content container py-6 collapse">
+    <section class="row">
+      <div class="col-sm-12 col-md-6">
+        <h2>Contact us</h2>
+        <h3>Company Contact</h3>
+        <p>
+          Email: <a href="mailto:info@arxality.com">info@arxality.com</a>
+        </p>
+        <h2>Our Staff</h2>
+        <p>
+          Mastodon: <a href="https://infosec.exchange/@redraceblue">@redraceblue@infosec.exchange</a>
+        </p>
+        <p>
+          Twitter: <a href="https://twitter.com/redraceblue">@redraceblue</a>
+        </p>
+        <p>
+          Linked In: <a href="https://www.linkedin.com/in/tom-hobbs-6418501/">Tom Hobbs, Technical Director</a>
+        </p>
+      </div>
+      <div class="col">
+        <img class="img-fluid" src="./img/cover-06822146908632698.png" alt="Futuristic robot in a hoodie, kneeling down looking like it is shooting blue lightning from it's raised hand"/>
+      </div>
+    </section>
+  </div>
+
+
   <footer>
     <div class="container">
       <div class="row py-5">
-        <div class="col-sm-12 col-md-6">
+        <!-- <div class="col-sm-12 col-md-6"> -->
+        <div class="col">
           <span class="d-block">
-            Arxality foreground logo
+            <img src="./img/banner_logo_1200x334.png" width="200" , height="50" />
           </span>
-
           <p>
-            Copyright &copy; Araxlity Ltd.
+            Copyright &copy; 2023 Araxlity Ltd.
           </p>
         </div>
+        <div class="col">
+          <h6>Contact details</h6>
+          <p>
+          <div>
+            <span class="email-icon"><i class="fas fa-envelope"></i></span>
+            <a href="mailto:info@arxality.com">
+              info@arxality.com
+            </a>
+          </div>
+          </p>
+        </div>
+        <!-- </div> -->
 
         <div class="col">
-          <h6>Links</h6>
+          <h6>Privacy</h6>
+          <div>
+            This site collects no personal data and makes no use of any cookies.
+            For details see our <a href="policies.html#privacy">privacy policy</a>
+            and our <a href="policies.html#cookies">cookie policy</a>.
+          </div>
 
-          <ul class="p-0">
+          <!-- <ul class="p-0">
             <li>
               <a href="#">Link 1</a>
             </li>
@@ -107,22 +186,47 @@
             <li>
               <a href="#">Link 4</a>
             </li>
-          </ul>
+          </ul> -->
         </div>
 
         <div class="col">
-          <h6>Contact details</h6>
-
+          <h6>Company details</h6>
+          <p>
+            Arxality Limited is a company registered in England and Wales<br />
+            Company number: 15000145<br />
+            Registered adress:<br />
+            Ground Floor, Unit B Lostock Office Park, <br />
+            Lynstock Way, <br />
+            Lostock, <br />
+            Bolton BL6 4SG<br />
+          </p>
+          <!--
           <p>
             Unit B Lynstock Way,<br />
             Lostock,<br />
             Bolton<br />
             BL6 4SG
-          </p>
+          </p>-->
         </div>
       </div>
     </div>
   </footer>
+  <!-- Include Bootstrap JS (and jQuery) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    // Show and hide DIVs when links are clicked
+    $('a[href^="#"]').on('click', function() {
+      console.log("oink", $(this).attr('href'));
+      var target = $(this).attr('href');
+      $('.collapse').removeClass('show');
+      $(target).addClass('show');
+    });
+  });
+  </script>
+
 </body>
 
 </html>

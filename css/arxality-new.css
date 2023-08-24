@@ -45,7 +45,9 @@ header>.branding {
   height: 25vh;
   display: flex;
   place-items: center;
-
+  background-image: url("../img/banner_logo_1200x334.png");
+  background-size: cover;
+  background-position: center;
   padding-left: 5vw;
 }
 
@@ -54,17 +56,17 @@ header h1>small {
   font-size: 60%;
 }
 
-#content h2,
-#content h3 {
+.content h2,
+.content h3 {
   font-family: Zen-Dots;
 }
 
-#content h2 {
+.content h2 {
   font-size: 100%;
   color: var(--bs-gray-600);
 }
 
-#content h3 {
+.content h3 {
   font-size: 250%;
 }
 
