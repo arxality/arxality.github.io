@@ -1,3 +1,10 @@
+img.todo {
+  border: 2px;
+  background-color: #FF00FF;
+  width: 400px;
+  height: 100px;
+}
+
 @font-face {
   font-family: 'Zen-Dots';
   src: url(../fonts/Zen_Dots/ZenDots-Regular.ttf) format('woff2');
@@ -10,7 +17,8 @@ body {
 
 header {
   font-family: Zen-Dots;
-  background: #3e1597;
+  /* background: #3e1597; */
+  background: var(--bs-gray-700);
   color: #fff;
 }
 
@@ -41,6 +49,10 @@ header a:hover {
   color: var(--bs-white);
 }
 
+/* header {
+  border-bottom: 3px solid var(--bs-gray-700); 
+}*/
+
 header>.branding {
   height: 25vh;
   display: flex;
@@ -48,7 +60,8 @@ header>.branding {
   background-image: url("../img/banner_logo_1200x334.png");
   background-size: cover;
   background-position: center;
-  padding-left: 5vw;
+  /* padding-left: 5vw; */
+  padding-left: 0vw;
 }
 
 header h1>small {
@@ -68,6 +81,16 @@ header h1>small {
 
 .content h3 {
   font-size: 250%;
+}
+
+.main_img {
+  float: right;
+  padding-right: 5px;
+}
+
+.main_content {
+  padding-top: 5px;
+  padding-left: 20px;
 }
 
 .btn {
@@ -92,9 +115,10 @@ h6.footer {
 }
 p.footer {
   color: #aaa;
-  font-size: small;
+  font-size: smaller;
 }
 address.footer {
   color: #aaa;
   font-size: small;
+  padding-left:10pxa
 }
