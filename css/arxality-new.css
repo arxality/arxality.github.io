@@ -1,8 +1,12 @@
-img.todo {
-  border: 2px;
-  background-color: #FF00FF;
-  width: 400px;
-  height: 100px;
+.logo-container {
+  width:100%;
+  text-align: center;
+}
+
+img.logo {
+  width: 250px;
+  height: 50px;
+/*background-color: rgb(0,0,0,0.5);*/
 }
 
 @font-face {
@@ -21,9 +25,9 @@ header {
   /* background: var(--bs-gray-700); */
   color: #fff;
   border-bottom: 3px solid var(--bs-gray-700);
-  background-image: url("../img/banner_logo_1200x334.png");
-        background-size: 100% auto; /* Stretch horizontally, without maintaining aspect ratio */
-      background-repeat: repeat-y; /* Repeat vertically */
+  background-image: url("../img/background.jpg");
+  background-size: 100% 100%; /* Stretch horizontally, without maintaining aspect ratio */
+  background-repeat: repeat-y; /* Repeat vertically */
 }
 
 header ul {
