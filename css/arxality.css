@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Zen-Dots';
+  src: url(../fonts/Zen_Dots/ZenDots-Regular.ttf) format('woff2');
+}
+
 .logo-container {
   width: 100%;
   text-align: right;
@@ -8,23 +13,23 @@ img.logo {
   width: 180px;
   height: 35px;
 }
+
 div.wrapper {
   min-height: 65vh;
 }
+
+div.inner-wrapper {
+  min-height: 55vh;
+}
+
 img.logo-icon {
   width: 35px;
   height: 35px;
 }
+
 .no-bullet {
   list-style-type: none;
 }
-
-/* a {
-  text-decoration: none;
-  color: var(--bs-white);
-  /* font-family: 'Zen-Dots'; */
-  /* src: url(../fonts/Zen_Dots/ZenDots-Regular.ttf) format('woff2'); */
-/*} */
 
 .branding-shield {
   width: 35px;
@@ -32,11 +37,6 @@ img.logo-icon {
   background-image: url("../img/shield.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-}
-
-@font-face {
-  font-family: 'Zen-Dots';
-  src: url(../fonts/Zen_Dots/ZenDots-Regular.ttf) format('woff2');
 }
 
 body {
