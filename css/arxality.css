@@ -101,7 +101,7 @@ a:hover {
 }
 
 .branding-overlay {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(4, 1, 48, 0.0);
 }
 
 header>.branding {
