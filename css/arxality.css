@@ -17,10 +17,6 @@ body {
 header {
   font-family: Zen-Dots;
   color: #fff;
-  border-bottom: 3px solid var(--bs-gray-700);
-  /* background-image: url("../img/background.jpg");
-  background-size: 100% 300%;
-  background-repeat: no-repeat; */
 }
 
 header>.branding {
@@ -49,6 +45,7 @@ header ul em {
 .logo-row {
   width: 100%;
   text-align: right;
+  padding-right: 0px !important;
 }
 
 img.logo {
@@ -64,7 +61,14 @@ img.logo-icon {
 .menu_row {
   padding-left: 0px !important;
   padding-right: 0px !important;
-  /* background: var(--bs-gray-700); */
+  background: var(--bs-gray-700);
+}
+
+.menu-item {
+  border-bottom: solid white 1px;
+  border-top: solid white 1px;
+  border-right: solid white 1px;
+  border-left: solid white 1px;
 }
 
 a {
@@ -89,14 +93,10 @@ a:hover {
   min-height: 70vh;
 }
 
-/* header ul li {
-  border: 1px solid var(--bs-white);
-  border-bottom: 0;
-} */
-
 div.wrapper {
   min-height: 70vh;
-  /* background: #293445; */
+  border-top: solid var(--bs-gray-700) 3px;
+  border-bottom: solid var(--bs-gray-700) 3px;
 }
 
 .content h2,
@@ -140,8 +140,6 @@ td a {
 /* Footer **********************************/
 
 footer {
-  border-top: 3px solid var(--bs-gray-700);
-  /* background: rgb(41, 52, 69); */
   font-size: x-small;
 }
 
@@ -161,14 +159,3 @@ h6.footer {
 p.footer {
   color: #aaa;
 }
-
-/* .footer_contents {
-  padding-top: 15px !important;
-} */
-
-/* footer { */
-  /* background-image: url("../img/background.jpg");
-  background-size: 100% 300%;
-  background-repeat: no-repeat;
-  background-position: bottom; */
-/* } */
