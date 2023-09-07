@@ -11,20 +11,10 @@ body, html {
 
 .background-image {
   background-image: url('../img/castle-bg.png');
-  /* background-size: cover; */
-  background-attachment: fixed; /* This makes the background image static */
+  background-attachment: fixed; 
   background-repeat: no-repeat;
   width: 100vw;
   background-size: 100% 100%;
-  /* height: 100vh; */
-  /* overflow: hidden; */
-}
-
-.main_container {
-  /* background-color: rgba(255, 255, 255, 0.8);  */
-  /* padding: 20px; */
-  /* margin-top: 20px; 
-  border-radius: 5px; */
 }
 
 /* Header **********************************/
@@ -33,18 +23,6 @@ body, html {
   font-family: Zen-Dots;
   color: #fff;
 }
-
-#breakH>.branding {
-  /* height: 12vh; */
-  /* display: flex;
-  padding-left: 0vw;
-  background-color: rgb(0, 0, 0, 0.5); */
-}
-
-/* header {
-  font-family: Zen-Dots;
-  color: #fff;
-} */
 
 #breakH ul {
   list-style: none;
@@ -58,20 +36,12 @@ body, html {
 }
 
 .rest {
-  grid-row: 2 / -1; /* This div will take up the remaining vertical space */
+  grid-row: 2 / -1; 
 }
 
-/* .top-header {
-  /* display: flex;
-  flex-direction: column; */
-  /* display: grid;
-  grid-template-rows: 1fr auto; */
-/*} */
-
-header ul li span {
-  /* border: 1px solid var(--bs-white);
-  border-bottom: 0; */
-}
+.top-header {
+  max-height: 85vh;
+} 
 
 header h1>small {
   display: block;
@@ -81,42 +51,19 @@ header h1>small {
 div.logo {
   padding:10px;
 }
-/* .logo-row {
-  width: 100%;
-  text-align: right;
-  padding-left: 10px !important;
-} */
 
 img.logo {
   width: 250px;
-  /* height: 35px; */
 }
 
 img.todo {
   width: 250px;
   text-align: right;
-  
-  /* height: 35px; */
 }
-
 
 img.logo-icon {
   width: 85px;
-  /* height: 35px; */
 }
-
-/* .menu_row {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  background: var(--bs-gray-700);
-} */
-
-/* .menu-item {
-  border-bottom: solid white 1px;
-  border-top: solid white 1px;
-  border-right: solid white 1px;
-  border-left: solid white 1px;
-} */
 
 a {
   text-decoration: none;
@@ -136,8 +83,6 @@ a:hover {
   padding-top: 5px;
   padding-left: 20px;
   font-size: small;
-  /* background: var(--bs-gray-700); */
-  /* background: rgb(100,100,100, 0.2); */
   min-height: 70vh;
 }
 
@@ -157,22 +102,11 @@ section.row {
 .img_col {
   height: 100%;
 }
-/* div.wrapper { */
-  /* min-height: 100vh; */
-  /* border-top: solid var(--bs-gray-700) 3px;
-  border-bottom: solid var(--bs-gray-700) 3px; */
-/* } */
-
-.contact-row {
-  /* padding-top: 20px; */
-  
-}
 
 .vertical-center-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100%;  */
   min-height: 20vh;
 }
 
@@ -190,26 +124,6 @@ div.small-break {
 div.drop-pad {
   padding-right: 0px;
 }
-/*
-#break0 {
-  background-color: rgb(0,0,0,0.1);
-  min-height: 20vh !important;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}*/
-
-/* #break1 {
-  background-color: var(--bs-gray-200);
-  min-height: 20vh !important;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}*/
-
-/* #break1 {
-  background: url("../img/break1.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-} */
 
 #break2 {
   background: url("../img/break2.png");
@@ -221,16 +135,12 @@ div.tint {
   background: rgb(0, 0, 0, 0.5);
 }
 div.header {
-  min-height: 90vh;
-  /* background-image: url("../img/background.jpg"); */
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
+  max-height: 60vh;
   display: grid;
   grid-template-rows: 1fr auto;
 }
 
 div.content {
-  /* background-color: var(--bs-gray-700); */
   background-color: rgb(50,50,50,0.8);
   min-height: 75vh;
 }
@@ -254,15 +164,9 @@ div.content {
   font-size: 250%;
 }
 
-/* .main_img {
-  float: right;
-  padding: 50px;
-} */
-
 .section-end {
   width: 100%;
   text-align: center;
-  /* padding-bottom: 8px; */
 }
 
 td.contact-table {
@@ -271,14 +175,10 @@ td.contact-table {
 }
 
 td a {
-  /* color: rgb(100,100,255); */
-  /* color: #2a7deb; */
   color: #b9dbf2;
   }
 
 a {
-  /* color: rgb(100,100,255); */
-  /* color: #2a7deb; */
   color: #b9dbf2;
   }
 
@@ -289,7 +189,6 @@ footer {
   font-size: x-small;
   min-height: 15vh;
   background-position: bottom;
-  /* background-image: url("../img/background.jpg"); */
   background: rgb(0,0,0,0.8);
   background-size: 100% 300%;
   background-repeat: no-repeat;
