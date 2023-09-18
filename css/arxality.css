@@ -14,7 +14,8 @@ body, html {
   background-attachment: fixed; 
   background-repeat: no-repeat;
   width: 100vw;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Header **********************************/
@@ -27,12 +28,12 @@ body, html {
 #breakH ul {
   list-style: none;
   padding: 0;
-  font-size: 120%;
+  font-size: 220%;
 }
 
 #breakH ul em {
   display: block;
-  font-size: 50%;
+  /* font-size: 50%; */
 }
 
 .rest {
@@ -40,12 +41,12 @@ body, html {
 }
 
 .top-header {
-  max-height: 85vh;
+  min-height: 90vh;
 } 
 
 header h1>small {
   display: block;
-  font-size: 60%;
+  /* font-size: 60%; */
 }
 
 div.logo {
@@ -69,7 +70,7 @@ a {
   text-decoration: none;
   color: var(--bs-white);
   font-weight: normal;
-  font-size: smaller;
+  /* font-size: smaller; */
 }
 
 a:hover {
@@ -82,26 +83,28 @@ a:hover {
 .main_content {
   padding-top: 5px;
   padding-left: 20px;
-  font-size: small;
+  /* font-size: small; */
   min-height: 70vh;
 }
 
 .inner-wrapper {
   padding: 15px;
-  font-size: small;
+  /* font-size: small; */
 }
 
-div.main_img {
-  height: 100%;
+.main_img {
+  max-height: 600px;
 }
 
-section.row {
+/* section.row { 
   min-height: 75vh;
-}
+} */
 
-.img_col {
+/* .img_col {
   height: 100%;
-}
+} */
+
+
 
 .vertical-center-text {
   display: flex;
@@ -142,7 +145,7 @@ div.header {
 
 div.content {
   background-color: rgb(50,50,50,0.8);
-  min-height: 75vh;
+  /* min-height: 75vh; */
 }
 .content h2,
 .content h3 {
@@ -186,7 +189,7 @@ a {
 /* Footer **********************************/
 
 footer {
-  font-size: x-small;
+  /* font-size: x-small; */
   min-height: 15vh;
   background-position: bottom;
   background: rgb(0,0,0,0.8);
@@ -205,7 +208,7 @@ footer ul {
 
 h6.footer {
   color: #ccc;
-  font-size: small;
+  /* font-size: small; */
 }
 
 p.footer {
