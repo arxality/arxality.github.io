@@ -104,7 +104,19 @@ a:hover {
   height: 100%;
 } */
 
+.close-button {
+  border: 1px solid black;
+  font-size: 30px;
+  width: 46px;
+  height: 40px;
+  background-color: var(--bs-gray-600);
+}
 
+.right-align-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-right:30px !important;
+}
 
 .vertical-center-text {
   display: flex;
@@ -122,6 +134,18 @@ div.break {
 div.small-break {
   min-height: 2vh;
   background-color: rgb(0,0,0,0.4);
+}
+
+.policy-button {
+  background: none;
+  border: none;
+  color: #b9dbf2;
+  padding: 0px;
+}
+
+.policy-button:hover {
+  text-decoration: underline;
+  color: var(--bs-white);
 }
 
 div.drop-pad {
